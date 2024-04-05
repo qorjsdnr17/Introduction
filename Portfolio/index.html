@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>배건욱 - Photofolio</title>
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon.png" />
+</head>
+
+<body>
+  <main id="app">
+    <section class="section-intro">
+      <header id="header">
+        <h1 class="txt-invisible">Portfolio</h1>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about" class="list-link">About</a></li>
+            <li><a href="#project" class="list-link">Project</a></li>
+            <li><a href="#contact" class="list-link">Contact</a></li>
+            <li>
+              <a href="https://github.com/qorjsdnr17" class="list-link btn-code">code</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="bar-bg">
+          <span class="bar-ing"></span>
+        </div>
+      </header>
+
+      <div class="cont-intro">
+        <a name="info"></a>
+        <img src="src/img/img-shinjang.jpg" alt="프로필 이미지" />
+        <div>
+          <p class="txt-title"></p>
+
+          <a href="#about" class="btn-more">🙋‍♂</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about">
+      <a name="about"></a>
+      <h2>About.</h2>
+      <div class="cont-about">
+        <div class="slide-container">
+          <div class="slide-album">
+            <div class="slide-images">
+              <img src="src/img/img-me-1.jpg" alt="내 사진" />
+              <img src="src/img/img-me-2.jpg" alt="내 사진" />
+              <img src="src/img/img-me-3.jpg" alt="내 사진" />
+              <img src="src/img/img-me-4.jpg" alt="내 사진" />
+              <img src="src/img/img-me-5.jpg" alt="내 사진" />
+            </div>
+            <button class="btn-next">▶</button>
+            <button class="btn-prev">◀</button>
+          </div>
+        </div>
+        <div class="info-about">
+          <dl class="txt-about">
+            <div>
+              <dt>이름</dt>
+              <dd>배건욱</dd>
+            </div>
+            <div>
+              <dt>생년월일</dt>
+              <dd>1993.01.22</dd>
+            </div>
+            <div>
+              <dt>거주지</dt>
+              <dd>부산광역시 남구 문현동</dd>
+            </div>
+            <div>
+              <dt>학교/전공</dt>
+              <dd>영산대학교/해운항만경영학과</dd>
+            </div>
+          </dl>
+          <div class="btn-about">
+            <button class="btn-open" type="button">
+              <img src="src/img/Technology Stack.png" alt="" />기술스택
+            </button>
+            <button class="btn-open" type="button">
+              <img src="src/img/icon-diary.png" alt="" />취미
+            </button>
+            <button class="btn-open" type="button">
+              <img src="src/img/icon-heart.png" alt="" />성격
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-project">
+      <h2></h2>
+      <a name="project"></a>
+      <h2>Project.</h2>
+      <article class="box-project">
+        <div>
+          <img class="img-project" src="src/img/project3.png" alt="첫번째 프로젝트 이미지" />
+          <button class="btn-detail" type="button"
+            onclick="location.href='https:https://github.com/qorjsdnr17/MBTIROR';">
+            자세히 보기
+          </button>
+        </div>
+        <div class="txt-project">
+          <h3>MBTIROR</h3>
+          <dl>
+            <dt>기간</dt>
+            <dd>2023.08</dd>
+            <dt>설명</dt>
+            <dd>MBTI 커뮤니티 사이트입니다.</dd>
+            <dt>사용 기술</dt>
+            <dd>HTml5,CSS3,JavaScript,JAVA,Oracle</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="box-project">
+        <div>
+          <img class="img-project" src="src/img/project4.png" alt="두번째 프로젝트 이미지" />
+          <button class="btn-detail" type="button" onclick="location.href='https://github.com/qorjsdnr17/Boogimon';">
+            자세히 보기
+          </button>
+        </div>
+        <div class="txt-project">
+          <h3>부기몬</h3>
+          <dl>
+            <dt>기간</dt>
+            <dd>2023.10</dd>
+            <dt>설명</dt>
+            <dd>부산 여행 스탬프 투어 웹페이지입니다.</dd>
+            <dt>사용 기술</dt>
+            <dd>React,JavaScript,figma,postman,Oracle</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+    <footer id="footer">
+      <a name="contact"></a>
+      <div class="box-footer">
+        <h2>Contact.</h2>
+        <ul class="link-sns">
+          <li>
+            <a href="https://github.com/qorjsdnr17"><img class="img-github" src="src/img/icon-github.png"
+                alt="깃허브 주소" />github</a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><img class="img-velog" src="src/img/icon-gmail.png"
+                alt="gmail" />Mail</a>
+          </li>
+        </ul>
+        <p>© 2024 - Baedo</p>
+      </div>
+    </footer>
+    <div class="modal-background">
+      <div class="modal">
+        <h3>기술 스택</h3>
+        <h3>기술 스택</h3>
+        <table>
+          <tr>
+            <th>언어/프레임워크</th>
+            <th>레벨</th>
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>중급</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>중급</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>초급</td>
+          </tr>
+          <tr>
+            <td>Node.js</td>
+            <td>초급</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>중급</td>
+          </tr>
+          <tr>
+            <td>MySQL</td>
+            <td>중급</td>
+          </tr>
+          <tr>
+            <td>오라클 데이터</td>
+            <td>중급</td>
+          </tr>
+          <tr>
+            <td>jQuery</td>
+            <td>중급</td>
+          </tr>
+          <tr>
+            <td>AJAX</td>
+            <td>중급</td>
+          </tr>
+        </table>
+        <button type="button" class="btn-close">Close</button>
+      </div>
+    </div>
+    <div class="modal-background">
+      <div class="modal">
+        <h3>취미</h3>
+        <h4>건프라</h4>
+        <img src="src/img/img-gunpla.PNG" alt="건프라 이미지" />
+        <p>
+          저의 취미는 건프라 입니다.🤖<br> 조용한 공간에서 아무 생각 없이<br> 혼자서 집중하는 시간이 좋습니다🔧
+        </p>
+        <button type="button" class="btn-close">Close</button>
+      </div>
+    </div>
+    <div class="modal-background">
+      <div class="modal">
+        <h3>성격</h3>
+        <h4>INFJ -인내심,통찰력,화합</h4>
+        <img src="src/img/img-infj.png" alt="INFJ 이미지" />
+        <p>
+          저는 창의적인 사고로 해결책을 제시하는 편이며,여러 아이디어를 활용하고<br>
+          목표 수행 시 장기적 접급으로 바라보는 편입니다.또한 문제발생 시 단호하지만 화합하면서 해결하는 편입니다.
+        </p>
+        <button type="button" class="btn-close">Close</button>
+      </div>
+    </div>
+    <button onclick="moveToTop()" class="btn-moveTop"></button>
+    <script src="index.js"></script>
+  </main>
+</body>
+
+</html>
